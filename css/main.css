@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+ font-family: 'Playfair Display', serif;
+ 
+ 
+}
+header{
+    background-color: rgb(52, 82, 171);
+    text-align: center;
+    
+
+}
+header h1{
+
+    color: aliceblue;
+    animation: fade-in 2s ease;
+}
+@keyframes fade-in {
+    0%{
+        transform: translateX(6rem) ;
+    }
+    
+    
+    100%{
+      transform: translateX(0);
+    }
+}
+article{
+    max-width: 1024px;
+    margin: auto;
+}
+
+
