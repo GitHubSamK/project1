@@ -10,6 +10,8 @@ body{
 header{
     background-color: rgb(52, 82, 171);
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
     
 
 }
@@ -32,5 +34,9 @@ article{
     max-width: 1024px;
     margin: auto;
 }
+main{
+    background-image: url(images/background.jpg);
+}
+
 
 
