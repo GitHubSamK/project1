@@ -1,42 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-*{box-sizing: border-box;}
-
-body{
- font-family: 'Playfair Display', serif;
- 
- 
+* {
+    box-sizing: border-box;
 }
-header{
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+
+
+}
+
+header {
     background-color: rgb(52, 82, 171);
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+  
+   
     
 
+
 }
-header h1{
+
+header h1 {
 
     color: aliceblue;
-    animation: fade-in 2s ease;
-}
-@keyframes fade-in {
-    0%{
-        transform: translateX(6rem) ;
-    }
-    
-    
-    100%{
-      transform: translateX(0);
-    }
-}
-article{
-    max-width: 1024px;
-    margin: auto;
-}
-main{
-    background-image: url(images/background.jpg);
+    animation: fade-in 3s ease;
 }
 
+@keyframes fade-in {
+    0% {
+        transform: translateX(10rem);
+    }
+
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+article {
+    max-width: 1024px;
+    margin: auto;
+    
+}
+footer{
+    background-color: rgb(52, 82, 171);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: aliceblue;
+
+}
+article{
+    padding-top: 30px;
+}
+.introsection {
+    background: rgba(240, 248, 255, 0.832);
+    text-align: center;
+    color: navy;
+    line-height: 1.5;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    
+}
+.introsection:hover{
+background-color: aliceblue;
+
+
+
+}
+.intro{
+    margin: auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
 
 
